@@ -1,0 +1,103 @@
+/* AULA 01 -SELETORES E CORES */
+/* O seletor universal é representado por*
+ */
+
+* {
+    /* 
+    Aplica a todos os elementos uma forma de calculo em que
+    o padding e a borda cabem dentro do tamanho definido */
+    box-sizing: border-box;
+}
+
+/* body é um seletor de tag*/
+body {
+    /* O valor 0 remove a margem automatica colocada pelo navegador */
+    margin: 0;
+
+    /* Define a cor de fundo da pagina */
+    background-color: rgb(189, 201, 201);
+
+    /* Define a cor do texto */
+    color: rgb(0, 0, 0);
+
+    /* Uma classe começa com ponto no CSS */
+    .limite-conteudo {
+
+        /* Ocupa 90% da largura disponivel*/
+        width: 90%;
+
+        /* Limita a largura máxima do conteudo */
+        max-width: 1120px;
+
+        /* Centraliza o elemento horizontalmente */
+
+        margin: 0 auto;
+    }
+
+    /* Um ID começa com # no CSS.*/
+    #titulo-principal {
+        color: azure;
+    }
+    /* A virgula permite selecionar varios elementos */
+    h1,
+    h2,
+    h3{
+        color: rgb(0, 0, 0);
+    }
+
+    /* Seleciona todos os paragrafos */
+    p {
+        color: rgb(0, 0, 0);
+    }
+
+    /* Seleciona elementos que possuem class="destaque" */
+    .destaque {
+        background-color: azure;
+    }
+
+    /* Seleciona o elemento que possui id=titulo-especial */
+    #titulo-especial{
+        color: #b91c1c;
+    }
+    .cabecalho{
+        background-color: #1d4ed8;
+        color: aliceblue;
+    }
+
+    .cabecalho p{
+        color: aliceblue;
+    }
+
+    .menu{
+        background-color: #0f172a;
+    }
+
+    .menu a{
+        color: white;
+    }
+
+    .secao{
+        background-color: white;
+    }
+
+    .cartao {
+        background-color: #f8fafc;
+    }
+
+    .cartao-tag{
+        background-color: #eff6ff;
+        border-color: #bbf7d0;
+    }
+
+    .cartao-classe{
+         background-color: #f0fdf4;
+        border-color: #bbf7d0;
+    }
+
+    .cartao-id{
+        background-color: #fef2f2;
+        border-color: #fecaca;
+    }
+
+
+}

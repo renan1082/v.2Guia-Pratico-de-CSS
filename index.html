@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!--CABEÇALHO DO PROJETO-->
+    <header class="cabecalho">
+        <div class="limite-conteudo">
+            <p class="identificacao"> Senac - UC15 - Renan Brandão</p>
+            <h1 id="titulo-principal">Guia Pratico de CSS. </h1>
+            <p id="subtitulo"> Projeto desenvolvido durante as aulas de Css. </p>
+
+        </div>
+    </header>
+
+    <!-- MENU DE NAVEGAÇÃO -->
+    <nav class="menu">
+        <div class="limite-conteudo menu-conteudo">
+
+            <a href="#aula-01">Aula 01 - Seletores </a>
+            <a href="#aula-02">Aula 02 - Textos </a>
+            <a href="#aula-03">Aula 03 - Box Model </a>
+            <a href="#aula-04">Aula 04 - Flex Box </a>
+            <a href="#aula-05">Aula 05 - Efeitos </a>
+        </div>
+    </nav>
+
+    <!-- Conteúdo principal da página -->
+    <main class="limite-conteudo">
+        <section class="secao" id="aula-01">
+            <divclass="titulo-aula">
+                <span>Aula 01</span>
+                <h2>Seletores e cores</h2>
+                </div>
+
+                <pclass="introducao-secao">
+                    Nesta aula utilizaremos seletores de tag, classe e ID para escolher elementos e aplicar cores.
+                    </p>
+
+                    <!--details cria uma área que pode ser aberta e fechada -->
+                    <!--summary cria o título clicável dessa área -->
+                    <details class="conteudo-aula">
+                        <summary> Conteúdo desta aula </summary>
+                        <ul>
+                            <li>Estrutura de uma regra CSS</li>
+                            <li>Seletor de tag</li>
+                            <li>Seletor de classe</li>
+                            <li>Seletor de ID</li>
+                            <li>color</li>
+                            <li>background-color</li>
+                        </ul>
+                    </details>
+
+                    <divclass="area-cartoes">
+                        <article class="cartao cartao-tag">
+                            <h3>Seletor de tag</h3>
+                            <p>Este parágrafo pode ser selecionado pelo nome da tag.</p>
+                            <code>p { color: blue; }</code>
+                        </article>
+
+                        <article class="cartao cartao-classe destaque">
+                            <h3>Seletor de classe</h3>
+                            <p> Este cartão possui a classe <strong>destaque</strong>.</p>
+                            <code>.destaque { }</code>
+                        </article>
+
+                        <article class="cartao cartao-id">
+                            <h3 id="titulo-especial">Seletor de ID </h3>
+                                <p> Este título possui o ID <strong>titulo-especial</strong>.</p>
+                                <code>#titulo-especial { }</code>
+                        </article>
+                        </div>
+        </section>
+
+
+
+
+
+    </main>
+
+
+
+</body>
+
+</html>

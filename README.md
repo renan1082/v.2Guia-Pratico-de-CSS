@@ -15,7 +15,7 @@ acompanhando os resultados diretamente no navegador.
 
 **UC15 - Desenvolver e organizar elementos estruturais de sites**
 
-## TEcnologias utilizadas
+## Tecnologias utilizadas
 - HTML5
 - CSS3
 - Git
